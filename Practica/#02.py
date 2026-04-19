@@ -27,6 +27,7 @@ def pagar_deuda(monto_inicial, abono_mensual):
             
             print(f"Mes {mes}: Pago realizado, te quedan {deuda:,.0f}")
             mes += 1
+            return mes - 1
         
         # Este print también es parte del else, se muestra al terminar el pago
         print(f"El total pagado es de {total_pagado:,.0f}")
