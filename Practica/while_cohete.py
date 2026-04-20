@@ -1,6 +1,8 @@
+velocidad_necesaria = 11.2
+velocidad_encontrada = 0
+
 while True:
-    velocidad_necesaria = 11.2
-    velocidad_encontrada = 0
+    
     datoUsuario = input("Ingrese una velocidad para el cohete: ")
     try:
         if datoUsuario == "salir":
