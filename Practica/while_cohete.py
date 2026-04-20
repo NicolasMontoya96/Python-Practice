@@ -20,4 +20,4 @@ while True:
                 print(f"Velocidad no suficiente, aún te faltan {velocidad_encontrada} km/s")
                 
     except ValueError:
-        print("Por favor ingrese un dato valido")
+        print("Por favor ingrese un dato válido")
